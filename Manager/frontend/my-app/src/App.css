@@ -1,0 +1,293 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  color: black;
+}
+
+main{
+  padding: 10px;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+/* 
+header a.logo{
+  font-weight: bold;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  margin-top: 15px;
+}
+
+header a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+header nav{
+  display: flex;
+  gap: 15px;
+}
+
+form.login ,form.register{
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+input{
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid gray;
+  background-color: #fff;
+  padding: 6px 8px;
+  
+}
+
+button{
+  width: 100%;
+  display: block;
+  padding: 7px 0;
+  background-color: #555;
+  border-radius: 6px;
+  border: 0px;
+  color: white;
+} */
+/* Header.css */
+body {
+  font-family: 'Arial', sans-serif; /* Set a clean font */
+  margin: 0; /* Remove default margin */
+}
+
+.header {
+  background-color: #007bff; /* Primary color for the header */
+  padding: 10px 20px; /* Spacing inside the header */
+  color: #fff; /* White text color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 7px;
+}
+
+.container {
+  display: flex; /* Flex container */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+  max-width: 1200px; /* Max width of the header content */
+  margin: 0 auto; /* Center the container */
+}
+
+.logo {
+  display: flex;
+  background-color:#fff;
+  font-size: 1.5rem; /* Increase logo size */
+  font-weight: bold; /* Bold logo text */
+  color: #fff; /* White logo color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition */
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.logo:hover {
+  color: #ffcc00; /* Change color on hover */
+}
+
+.nav {
+  display: flex; /* Flex container for navigation links */
+  gap: 20px; /* Spacing between links */
+}
+
+.nav-link {
+  color: #fff; /* White link color */
+  text-decoration: none; /* Remove underline */
+  padding: 8px 16px; /* Padding inside links */
+  background-color: transparent; /* Transparent background */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.nav-link:hover {
+  background-color: #0056b3; /* Slightly darker background on hover */
+  color: #ffcc00; /* Change text color on hover */
+}
+
+.logout-button {
+  border: none; /* Remove default button border */
+  background: none; /* Remove default button background */
+  color: #fff; /* White text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  padding: 8px 16px; /* Button padding */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.logout-button:hover {
+  background-color: #d9534f; /* Red background on hover */
+  color: #fff; /* White text color */
+}
+
+
+
+
+/* LoginForm.css */
+body {
+  background-color: #f0f2f5; /* Soft background color */
+  font-family: 'Arial', sans-serif; /* Smooth font */
+}
+
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  background-color: #fff; /* White background for form */
+  padding: 40px 30px; /* Padding inside the form */
+  border-radius: 8px; /* Smooth corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px; /* Maximum width of the form */
+  box-sizing: border-box;
+}
+
+.login-form h2 {
+  margin-bottom: 20px; /* Space below heading */
+  color: #333; /* Heading color */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Space between form elements */
+  
+}
+
+.form-group label {
+  display: block; /* Label as a block */
+  margin-bottom: 8px; /* Space below label */
+  font-weight: bold; /* Bold labels */
+  color: #555; /* Grayish label color */
+}
+
+.form-group input {
+  width: 100%; /* Full width input */
+  padding: 10px; /* Padding inside input */
+  font-size: 16px; /* Font size */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Smooth corners */
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Smooth border transition */
+}
+
+.form-group input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.login-button {
+  width: 100%; /* Full width button */
+  padding: 12px 0; /* Padding inside button */
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Smooth corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold font */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Darker button color on hover */
+}
+
+.new-customer-container {
+  display: flex; /* Center align container */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.new-customer-form {
+  
+  background: #fff; /* White background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 20px; /* Padding around the form */
+  width: 400px; /* Fixed width for the form */
+  max-width: 100%; /* Responsive width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.new-customer-form h2 {
+  margin-bottom: 20px; /* Space below heading */
+  color: #333; /* Darker text color */
+  text-align: center; /* Center the heading */
+}
+.submit-button {
+  width: 100%; /* Full width button */
+  padding: 12px; /* Button padding */
+  background-color: #007bff; /* Primary color */
+  color: #fff; /* White text */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Larger font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background */
+  margin-bottom: 7px;
+}
+
+.customer-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+ 
+.table-container {
+  /* margin: 20px; */
+  overflow-x: auto; /* Enables horizontal scrolling if the table is too wide */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd; /* Light grey border for cells */
+  text-align: center;
+}
+
+.table th {
+  background-color: #007bff; /* Darker blue header background */
+  color: white;
+  font-size: 16px;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Zebra striping for rows, light grey */
+}
+
+.table tbody tr:hover {
+  background-color: #e8f4f8; /* Light blue hover effect for rows */
+}
